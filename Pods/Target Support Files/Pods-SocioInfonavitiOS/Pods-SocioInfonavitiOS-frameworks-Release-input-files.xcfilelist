@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SocioInfonavitiOS/Pods-SocioInfonavitiOS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework

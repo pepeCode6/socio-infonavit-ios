@@ -1,0 +1,6 @@
+framework module Pods_SocioInfonavitiOS {
+  umbrella header "Pods-SocioInfonavitiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,26 @@
+PODS:
+  - SDWebImage (5.7.3):
+    - SDWebImage/Core (= 5.7.3)
+  - SDWebImage/Core (5.7.3)
+  - SideMenu (6.4.9)
+  - SkeletonView (1.8.8)
+
+DEPENDENCIES:
+  - SDWebImage (~> 5.0)
+  - SideMenu
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SideMenu
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  SDWebImage: 97351f6582ceca541ea294ba66a1fcb342a331c2
+  SideMenu: 8ef57a3cfc024a2d3fc1c036c7fe98537baec9e0
+  SkeletonView: e37c282c1b228547b83daf47605f79c3aeb1df9a
+
+PODFILE CHECKSUM: a1e9ccc63ebbdd558da0f71e5e126af96d604eb7
+
+COCOAPODS: 1.9.1

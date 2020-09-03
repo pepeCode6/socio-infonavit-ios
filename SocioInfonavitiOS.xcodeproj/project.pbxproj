@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,38 @@
 		B16DE7C82500147C002ADE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16DE7C62500147C002ADE27 /* Main.storyboard */; };
 		B16DE7CA25001481002ADE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16DE7C925001481002ADE27 /* Assets.xcassets */; };
 		B16DE7CD25001481002ADE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16DE7CB25001481002ADE27 /* LaunchScreen.storyboard */; };
+		B175AC7025001A1700E97C8F /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B175AC6F25001A1700E97C8F /* LoginViewController.storyboard */; };
+		B175AC7225001A5B00E97C8F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC7125001A5B00E97C8F /* LoginViewController.swift */; };
+		B175AC7A25002C9700E97C8F /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC7925002C9700E97C8F /* LoginPresenter.swift */; };
+		B175AC7C25002CA300E97C8F /* LoginPresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC7B25002CA300E97C8F /* LoginPresenterDelegate.swift */; };
+		B175AC7E25002CB900E97C8F /* LoginViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC7D25002CB900E97C8F /* LoginViewDelegate.swift */; };
+		B175AC802500377000E97C8F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC7F2500377000E97C8F /* API.swift */; };
+		B175AC8225003F6C00E97C8F /* LoginSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC8125003F6C00E97C8F /* LoginSuccess.swift */; };
+		B175AC842500436600E97C8F /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC832500436600E97C8F /* Credentials.swift */; };
+		B175AC862500441C00E97C8F /* ErrorResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC852500441C00E97C8F /* ErrorResp.swift */; };
+		B175AC882500491F00E97C8F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC872500491F00E97C8F /* BaseViewController.swift */; };
+		B175AC8C250051D100E97C8F /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC8B250051D100E97C8F /* LocalStorageManager.swift */; };
+		B175AC8F2500553400E97C8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC8E2500553400E97C8F /* HomeViewController.swift */; };
+		B175AC912500553D00E97C8F /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B175AC902500553D00E97C8F /* HomeViewController.storyboard */; };
+		B175AC932500673200E97C8F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC922500673200E97C8F /* ContainerViewController.swift */; };
+		B175AC982500733D00E97C8F /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC972500733D00E97C8F /* HomePresenter.swift */; };
+		B175AC9A2500734A00E97C8F /* HomePresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC992500734A00E97C8F /* HomePresenterDelegate.swift */; };
+		B175AC9D2500736B00E97C8F /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC9C2500736B00E97C8F /* MenuPresenter.swift */; };
+		B175AC9F2500737800E97C8F /* MenuPresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175AC9E2500737800E97C8F /* MenuPresenterDelegate.swift */; };
+		B175ACA1250073BB00E97C8F /* MenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175ACA0250073BB00E97C8F /* MenuViewDelegate.swift */; };
+		B175ACA32500778100E97C8F /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175ACA22500778100E97C8F /* Wallet.swift */; };
+		B175ACA5250078AB00E97C8F /* Benefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175ACA4250078AB00E97C8F /* Benefit.swift */; };
+		B175ACA725007B8A00E97C8F /* HomeViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175ACA625007B8A00E97C8F /* HomeViewDelegate.swift */; };
+		B175ACA92500872E00E97C8F /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175ACA82500872E00E97C8F /* WalletTableViewCell.swift */; };
+		B175ACAE250089DE00E97C8F /* UnlockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175ACAC250089DE00E97C8F /* UnlockCollectionViewCell.swift */; };
+		B175ACAF250089DE00E97C8F /* UnlockCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B175ACAD250089DE00E97C8F /* UnlockCollectionViewCell.xib */; };
+		F4892C5FF6CBDE69563B50AF /* Pods_SocioInfonavitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9601753787C505AB8925B9 /* Pods_SocioInfonavitiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84B7C9345735BABE6ACB3F7C /* Pods-SocioInfonavitiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocioInfonavitiOS.debug.xcconfig"; path = "Target Support Files/Pods-SocioInfonavitiOS/Pods-SocioInfonavitiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9C9601753787C505AB8925B9 /* Pods_SocioInfonavitiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocioInfonavitiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD8D4777F640180011F2E0A /* Pods-SocioInfonavitiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocioInfonavitiOS.release.xcconfig"; path = "Target Support Files/Pods-SocioInfonavitiOS/Pods-SocioInfonavitiOS.release.xcconfig"; sourceTree = "<group>"; };
 		B16DE7BD2500147C002ADE27 /* SocioInfonavitiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocioInfonavitiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16DE7C02500147C002ADE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B16DE7C22500147C002ADE27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +53,31 @@
 		B16DE7C925001481002ADE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16DE7CC25001481002ADE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B16DE7CE25001481002ADE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B175AC6F25001A1700E97C8F /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		B175AC7125001A5B00E97C8F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B175AC7925002C9700E97C8F /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		B175AC7B25002CA300E97C8F /* LoginPresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterDelegate.swift; sourceTree = "<group>"; };
+		B175AC7D25002CB900E97C8F /* LoginViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewDelegate.swift; sourceTree = "<group>"; };
+		B175AC7F2500377000E97C8F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B175AC8125003F6C00E97C8F /* LoginSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccess.swift; sourceTree = "<group>"; };
+		B175AC832500436600E97C8F /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		B175AC852500441C00E97C8F /* ErrorResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResp.swift; sourceTree = "<group>"; };
+		B175AC872500491F00E97C8F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B175AC8B250051D100E97C8F /* LocalStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		B175AC8E2500553400E97C8F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B175AC902500553D00E97C8F /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		B175AC922500673200E97C8F /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		B175AC972500733D00E97C8F /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		B175AC992500734A00E97C8F /* HomePresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterDelegate.swift; sourceTree = "<group>"; };
+		B175AC9C2500736B00E97C8F /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		B175AC9E2500737800E97C8F /* MenuPresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenterDelegate.swift; sourceTree = "<group>"; };
+		B175ACA0250073BB00E97C8F /* MenuViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewDelegate.swift; sourceTree = "<group>"; };
+		B175ACA22500778100E97C8F /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		B175ACA4250078AB00E97C8F /* Benefit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benefit.swift; sourceTree = "<group>"; };
+		B175ACA625007B8A00E97C8F /* HomeViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewDelegate.swift; sourceTree = "<group>"; };
+		B175ACA82500872E00E97C8F /* WalletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
+		B175ACAC250089DE00E97C8F /* UnlockCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockCollectionViewCell.swift; sourceTree = "<group>"; };
+		B175ACAD250089DE00E97C8F /* UnlockCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnlockCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4892C5FF6CBDE69563B50AF /* Pods_SocioInfonavitiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3146365CF286760BA807749D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C9601753787C505AB8925B9 /* Pods_SocioInfonavitiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9090F74603A83547A6810227 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84B7C9345735BABE6ACB3F7C /* Pods-SocioInfonavitiOS.debug.xcconfig */,
+				AAD8D4777F640180011F2E0A /* Pods-SocioInfonavitiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B16DE7B42500147C002ADE27 = {
 			isa = PBXGroup;
 			children = (
 				B16DE7BF2500147C002ADE27 /* SocioInfonavitiOS */,
 				B16DE7BE2500147C002ADE27 /* Products */,
+				9090F74603A83547A6810227 /* Pods */,
+				3146365CF286760BA807749D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +130,12 @@
 		B16DE7BF2500147C002ADE27 /* SocioInfonavitiOS */ = {
 			isa = PBXGroup;
 			children = (
+				B175AC8A250051C100E97C8F /* utils */,
+				B175AC892500492500E97C8F /* api */,
+				B175AC7625002C7000E97C8F /* entities */,
+				B175AC7525002C6A00E97C8F /* models */,
+				B175AC7425002C6000E97C8F /* presenters */,
+				B175AC7325002C5100E97C8F /* ui */,
 				B16DE7C02500147C002ADE27 /* AppDelegate.swift */,
 				B16DE7C22500147C002ADE27 /* SceneDelegate.swift */,
 				B16DE7C42500147C002ADE27 /* ViewController.swift */,
@@ -63,8 +143,115 @@
 				B16DE7C925001481002ADE27 /* Assets.xcassets */,
 				B16DE7CB25001481002ADE27 /* LaunchScreen.storyboard */,
 				B16DE7CE25001481002ADE27 /* Info.plist */,
+				B175AC872500491F00E97C8F /* BaseViewController.swift */,
 			);
 			path = SocioInfonavitiOS;
+			sourceTree = "<group>";
+		};
+		B175AC7325002C5100E97C8F /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC8D2500552300E97C8F /* home */,
+				B175AC7725002C7600E97C8F /* login */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		B175AC7425002C6000E97C8F /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC9B2500736000E97C8F /* menu */,
+				B175AC962500733000E97C8F /* home */,
+				B175AC7825002C8700E97C8F /* login */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		B175AC7525002C6A00E97C8F /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B175AC7625002C7000E97C8F /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC8125003F6C00E97C8F /* LoginSuccess.swift */,
+				B175AC832500436600E97C8F /* Credentials.swift */,
+				B175AC852500441C00E97C8F /* ErrorResp.swift */,
+				B175ACA22500778100E97C8F /* Wallet.swift */,
+				B175ACA4250078AB00E97C8F /* Benefit.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		B175AC7725002C7600E97C8F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC6F25001A1700E97C8F /* LoginViewController.storyboard */,
+				B175AC7125001A5B00E97C8F /* LoginViewController.swift */,
+				B175AC7D25002CB900E97C8F /* LoginViewDelegate.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		B175AC7825002C8700E97C8F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC7925002C9700E97C8F /* LoginPresenter.swift */,
+				B175AC7B25002CA300E97C8F /* LoginPresenterDelegate.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		B175AC892500492500E97C8F /* api */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC7F2500377000E97C8F /* API.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		B175AC8A250051C100E97C8F /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC8B250051D100E97C8F /* LocalStorageManager.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		B175AC8D2500552300E97C8F /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC8E2500553400E97C8F /* HomeViewController.swift */,
+				B175AC902500553D00E97C8F /* HomeViewController.storyboard */,
+				B175AC922500673200E97C8F /* ContainerViewController.swift */,
+				B175ACA0250073BB00E97C8F /* MenuViewDelegate.swift */,
+				B175ACA625007B8A00E97C8F /* HomeViewDelegate.swift */,
+				B175ACA82500872E00E97C8F /* WalletTableViewCell.swift */,
+				B175ACAC250089DE00E97C8F /* UnlockCollectionViewCell.swift */,
+				B175ACAD250089DE00E97C8F /* UnlockCollectionViewCell.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		B175AC962500733000E97C8F /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC972500733D00E97C8F /* HomePresenter.swift */,
+				B175AC992500734A00E97C8F /* HomePresenterDelegate.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		B175AC9B2500736000E97C8F /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				B175AC9C2500736B00E97C8F /* MenuPresenter.swift */,
+				B175AC9E2500737800E97C8F /* MenuPresenterDelegate.swift */,
+			);
+			path = menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B16DE7D125001481002ADE27 /* Build configuration list for PBXNativeTarget "SocioInfonavitiOS" */;
 			buildPhases = (
+				9946F88BE2A776ED35D166A8 /* [CP] Check Pods Manifest.lock */,
 				B16DE7B92500147C002ADE27 /* Sources */,
 				B16DE7BA2500147C002ADE27 /* Frameworks */,
 				B16DE7BB2500147C002ADE27 /* Resources */,
+				98AAC0C05F70A37F8B755D15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +314,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B175AC912500553D00E97C8F /* HomeViewController.storyboard in Resources */,
 				B16DE7CD25001481002ADE27 /* LaunchScreen.storyboard in Resources */,
+				B175AC7025001A1700E97C8F /* LoginViewController.storyboard in Resources */,
 				B16DE7CA25001481002ADE27 /* Assets.xcassets in Resources */,
+				B175ACAF250089DE00E97C8F /* UnlockCollectionViewCell.xib in Resources */,
 				B16DE7C82500147C002ADE27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		98AAC0C05F70A37F8B755D15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocioInfonavitiOS/Pods-SocioInfonavitiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocioInfonavitiOS/Pods-SocioInfonavitiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocioInfonavitiOS/Pods-SocioInfonavitiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9946F88BE2A776ED35D166A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocioInfonavitiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B16DE7B92500147C002ADE27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B175ACA92500872E00E97C8F /* WalletTableViewCell.swift in Sources */,
+				B175AC8225003F6C00E97C8F /* LoginSuccess.swift in Sources */,
+				B175AC8C250051D100E97C8F /* LocalStorageManager.swift in Sources */,
+				B175ACAE250089DE00E97C8F /* UnlockCollectionViewCell.swift in Sources */,
+				B175AC7225001A5B00E97C8F /* LoginViewController.swift in Sources */,
+				B175AC842500436600E97C8F /* Credentials.swift in Sources */,
+				B175AC7C25002CA300E97C8F /* LoginPresenterDelegate.swift in Sources */,
+				B175AC8F2500553400E97C8F /* HomeViewController.swift in Sources */,
+				B175AC9F2500737800E97C8F /* MenuPresenterDelegate.swift in Sources */,
+				B175ACA5250078AB00E97C8F /* Benefit.swift in Sources */,
+				B175ACA1250073BB00E97C8F /* MenuViewDelegate.swift in Sources */,
 				B16DE7C52500147C002ADE27 /* ViewController.swift in Sources */,
+				B175AC932500673200E97C8F /* ContainerViewController.swift in Sources */,
+				B175AC882500491F00E97C8F /* BaseViewController.swift in Sources */,
 				B16DE7C12500147C002ADE27 /* AppDelegate.swift in Sources */,
+				B175AC982500733D00E97C8F /* HomePresenter.swift in Sources */,
+				B175AC862500441C00E97C8F /* ErrorResp.swift in Sources */,
 				B16DE7C32500147C002ADE27 /* SceneDelegate.swift in Sources */,
+				B175ACA32500778100E97C8F /* Wallet.swift in Sources */,
+				B175AC9A2500734A00E97C8F /* HomePresenterDelegate.swift in Sources */,
+				B175AC7A25002C9700E97C8F /* LoginPresenter.swift in Sources */,
+				B175AC802500377000E97C8F /* API.swift in Sources */,
+				B175AC9D2500736B00E97C8F /* MenuPresenter.swift in Sources */,
+				B175AC7E25002CB900E97C8F /* LoginViewDelegate.swift in Sources */,
+				B175ACA725007B8A00E97C8F /* HomeViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +538,7 @@
 		};
 		B16DE7D225001481002ADE27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B7C9345735BABE6ACB3F7C /* Pods-SocioInfonavitiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +557,7 @@
 		};
 		B16DE7D325001481002ADE27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD8D4777F640180011F2E0A /* Pods-SocioInfonavitiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
